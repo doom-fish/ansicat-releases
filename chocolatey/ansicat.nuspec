@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ansicat</id>
+    <version>0.1.0</version>
+    <title>ansi.cat</title>
+    <authors>Per Johansson</authors>
+    <projectUrl>https://ansi.cat/</projectUrl>
+    <iconUrl>https://ansi.cat/images/icon@2x.png</iconUrl>
+    <copyright>Copyright (c) 2026 Per Johansson</copyright>
+    <licenseUrl>https://github.com/doom-fish/ansicat-releases/blob/main/LICENSE-MIT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <packageSourceUrl>https://github.com/doom-fish/ansicat-releases/tree/main/chocolatey</packageSourceUrl>
+    <docsUrl>https://ansi.cat/#install</docsUrl>
+    <tags>ansicat ansi ascii-art diff markdown nfo petscii viewer</tags>
+    <summary>A fast, read-only viewer for text art, Markdown, code and patches</summary>
+    <description>ansi.cat shows NFO, ANSI, XBin and PETSCII art, Markdown with images, SVG images, text, source code, patches, terminal output and binary files. It does not change the files that it shows.
+
+The package installs ansi.cat for the user that runs Chocolatey. ansi.cat becomes the default app for text art and PETSCII files, unless the user selected a different app in the settings of Windows.</description>
+    <releaseNotes>https://github.com/doom-fish/ansicat-releases/releases/tag/v0.1.0</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
