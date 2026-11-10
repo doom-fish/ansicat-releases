@@ -2,8 +2,7 @@ cask "ansicat" do
   version "0.1.0"
   sha256 "5eea4150847bda14f0dd33c08872a7d5fe4faf530a8398786b576eb95ae6c9c7"
 
-  url "https://github.com/doom-fish/ansicat-releases/releases/download/v#{version}/ansi.cat-#{version}-macos.dmg",
-      verified: "github.com/doom-fish/ansicat-releases/"
+  url "https://github.com/doom-fish/ansicat-releases/releases/download/v#{version}/ansi.cat-#{version}-macos.dmg"
   name "ansi.cat"
   desc "Read-only viewer for text art, Markdown, code and patches"
   homepage "https://ansi.cat/"
