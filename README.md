@@ -86,6 +86,17 @@ Use `ansicat --open FILE` to open it in the app.
 An AppImage needs FUSE.
 If FUSE is not available, use `--appimage-extract-and-run`.
 
+You can also use Homebrew on Linux:
+
+```sh
+brew tap doom-fish/ansicat https://github.com/doom-fish/ansicat-releases
+brew install --cask doom-fish/ansicat/ansicat
+```
+
+Homebrew moves the AppImage to `~/Applications` and adds ansi.cat to the applications menu.
+It also installs the `ansicat` command, which does not need FUSE.
+If you registered a different copy of ansi.cat, run `--unregister` with that copy first.
+
 ## Licence
 
 Copyright (c) 2026 Per Johansson.
