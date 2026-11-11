@@ -1,6 +1,6 @@
 cask "ansicat" do
-  version "0.1.0"
-  sha256 "5eea4150847bda14f0dd33c08872a7d5fe4faf530a8398786b576eb95ae6c9c7"
+  version "0.2.0"
+  sha256 "5889b66b8654f5d8b5294e4090bc632f3c5f0c5cab25a22359800bb7a07d98f9"
 
   url "https://github.com/doom-fish/ansicat-releases/releases/download/v#{version}/ansi.cat-#{version}-macos.dmg"
   name "ansi.cat"

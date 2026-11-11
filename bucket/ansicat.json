@@ -1,14 +1,14 @@
 {
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Read-only viewer for text art, Markdown, code and patches",
     "homepage": "https://ansi.cat/",
     "license": "MIT|Apache-2.0",
     "notes": "ansi.cat is the default app for text art and PETSCII files, unless you selected a different app in the settings of Windows.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/doom-fish/ansicat-releases/releases/download/v0.1.0/ansi.cat-0.1.0-windows-x64.zip",
-            "hash": "8596705a8a5b6b4609cc8ea381f04d37a76b44cbad5083500f9ce49b0b7874b7",
-            "extract_dir": "ansi.cat-0.1.0-windows-x64"
+            "url": "https://github.com/doom-fish/ansicat-releases/releases/download/v0.2.0/ansi.cat-0.2.0-windows-x64.zip",
+            "hash": "6ef71dccbc50649083af20d61679ceae7ea238443bec359e761e5751a2deeabf",
+            "extract_dir": "ansi.cat-0.2.0-windows-x64"
         }
     },
     "bin": "ansicat.exe",
