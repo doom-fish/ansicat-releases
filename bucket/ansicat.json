@@ -1,14 +1,14 @@
 {
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "Read-only viewer for text art, Markdown, code and patches",
     "homepage": "https://ansi.cat/",
     "license": "MIT|Apache-2.0",
     "notes": "ansi.cat is the default app for text art and PETSCII files, unless you selected a different app in the settings of Windows.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/doom-fish/ansicat-releases/releases/download/v0.2.0/ansi.cat-0.2.0-windows-x64.zip",
-            "hash": "6ef71dccbc50649083af20d61679ceae7ea238443bec359e761e5751a2deeabf",
-            "extract_dir": "ansi.cat-0.2.0-windows-x64"
+            "url": "https://github.com/doom-fish/ansicat-releases/releases/download/v0.3.0/ansi.cat-0.3.0-windows-x64.zip",
+            "hash": "57608b7a7242e1fd14136eddbedd00013e68138de953909d389234fe479ce705",
+            "extract_dir": "ansi.cat-0.3.0-windows-x64"
         }
     },
     "bin": "ansicat.exe",
@@ -18,7 +18,7 @@
             "ansi.cat"
         ]
     ],
-    "post_install": "Start-Process -FilePath \"$dir\\ansi.cat.exe\" -ArgumentList '--register' -Wait",
+    "pre_install": "$registrationProcess = Start-Process -FilePath \"$dir\\ansi.cat.exe\" -ArgumentList '--register' -Wait -PassThru; if ($registrationProcess.ExitCode -ne 0) { throw 'ansi.cat could not register its files.' }; if (!(Test-Path \"$dir\\ansicat.exe\")) { throw 'ansi.cat did not write the command line tool.' }",
     "pre_uninstall": "Start-Process -FilePath \"$dir\\ansi.cat.exe\" -ArgumentList '--unregister' -Wait",
     "checkver": {
         "github": "https://github.com/doom-fish/ansicat-releases"

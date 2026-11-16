@@ -46,13 +46,13 @@ Use `aarch64` or `arm64` for 64-bit ARM systems.
 
 | Architecture | Archive | Debian and Ubuntu | AppImage |
 | --- | --- | --- | --- |
-| x86_64 | `ansi.cat-0.2.0-linux-x86_64.tar.gz` | `ansi.cat_0.2.0_amd64.deb` | `ansi.cat-0.2.0-linux-x86_64.AppImage` |
-| aarch64 | `ansi.cat-0.2.0-linux-aarch64.tar.gz` | `ansi.cat_0.2.0_arm64.deb` | `ansi.cat-0.2.0-linux-aarch64.AppImage` |
+| x86_64 | `ansi.cat-0.3.0-linux-x86_64.tar.gz` | `ansi.cat_0.3.0_amd64.deb` | `ansi.cat-0.3.0-linux-x86_64.AppImage` |
+| aarch64 | `ansi.cat-0.3.0-linux-aarch64.tar.gz` | `ansi.cat_0.3.0_arm64.deb` | `ansi.cat-0.3.0-linux-aarch64.AppImage` |
 
 On Debian 11 or later and Ubuntu 24.04, install the deb file:
 
 ```sh
-sudo apt install ./ansi.cat_0.2.0_amd64.deb
+sudo apt install ./ansi.cat_0.3.0_amd64.deb
 ```
 
 The package installs the desktop entry, file types, icons and `ansicat` command.
@@ -61,16 +61,16 @@ To remove it, run `sudo apt remove ansi.cat`.
 For a portable copy, extract the tar.gz file:
 
 ```sh
-tar -xzf ansi.cat-0.2.0-linux-x86_64.tar.gz
-cd ansi.cat-0.2.0-linux-x86_64
+tar -xzf ansi.cat-0.3.0-linux-x86_64.tar.gz
+cd ansi.cat-0.3.0-linux-x86_64
 ./ansi.cat --register
 ```
 
 For AppImage, make the file executable:
 
 ```sh
-chmod +x ansi.cat-0.2.0-linux-x86_64.AppImage
-./ansi.cat-0.2.0-linux-x86_64.AppImage --register
+chmod +x ansi.cat-0.3.0-linux-x86_64.AppImage
+./ansi.cat-0.3.0-linux-x86_64.AppImage --register
 ```
 
 The portable formats need the same system libraries as the deb file.
