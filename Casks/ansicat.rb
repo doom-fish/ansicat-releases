@@ -3,11 +3,11 @@ cask "ansicat" do
   os macos: "macos", linux: "linux-#{arch}"
   url_end = on_system_conditional macos: "dmg", linux: "AppImage"
 
-  version "0.4.1"
-  sha256 arm:          "e31b5407c54356ac8188d3e105cb8ab50137bd24457846c2fb31277bfa55f279",
-         intel:        "e31b5407c54356ac8188d3e105cb8ab50137bd24457846c2fb31277bfa55f279",
-         arm64_linux:  "68e1b34e36fcaeb6f1369c1985923d61cfbef8dd8d253b5ba064fdd4b70145ec",
-         x86_64_linux: "74dec98954f575a9e1d66719e9f81d6863caccbab9142e0092c343186d24df29"
+  version "0.4.2"
+  sha256 arm:          "1225c21b54a9287e5c2938bad47e1db6d1a600de85fb05cd6384fb53d3a730bf",
+         intel:        "1225c21b54a9287e5c2938bad47e1db6d1a600de85fb05cd6384fb53d3a730bf",
+         arm64_linux:  "5154b7da061097aa99a0787243fba0fc7aee2f8c0c6a89c7b8744e945d25d35d",
+         x86_64_linux: "23086246e87d8ddf8facf4e34bea762bc8de7821ffbe6f6eb45c32e874bdaa67"
 
   on_macos do
     depends_on macos: :monterey
