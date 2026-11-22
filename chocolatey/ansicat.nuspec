@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ansicat</id>
-    <version>0.4.0</version>
+    <version>0.4.1</version>
     <title>ansi.cat</title>
     <authors>Per Johansson</authors>
     <projectUrl>https://ansi.cat/</projectUrl>
@@ -17,7 +17,7 @@
     <description>ansi.cat shows NFO, ANSI, XBin and PETSCII art, Markdown with images, SVG images, text, source code, patches, terminal output and binary files. It does not change the files that it shows.
 
 The package installs ansi.cat for the user that runs Chocolatey. ansi.cat becomes the default app for text art and PETSCII files, unless the user selected a different app in the settings of Windows.</description>
-    <releaseNotes>https://github.com/doom-fish/ansicat-releases/releases/tag/v0.4.0</releaseNotes>
+    <releaseNotes>https://github.com/doom-fish/ansicat-releases/releases/tag/v0.4.1</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
